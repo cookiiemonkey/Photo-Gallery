@@ -1,37 +1,80 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="vieuwport" content="width=device-width, initial-scale=1.0">
-     <title>Photo Gallery</title>
-     <link rel="stylesheet" href="css/main.css">
-     <link rel="stylesheet" href="css/normalize.css">
- </head>
- <body>
-     <div class="wrapper">
-        
-         <input type="text" id="searchBox" name="searchBox" placeholder="Search">
-         
-         <div class="image clearfix">
-         <div class="imgageThumb"><img src="img/thumbnails/01.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/02.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/03.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/04.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/05.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/06.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/07.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/08.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/09.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/10.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/11.jpg"></div>
-         <div class="imgageThumb"><img src="img/thumbnails/12.jpg"></div>
-         </div>
-         
-     </div>
-     
-     
-     <script src="js/jquery-3.2.1.min.js"></script>
-     
-     <script src="js/main.js"></script>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieuwport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/LightBox/lightbox.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <input type="text" id="searchBox" name="searchBox" placeholder="Search">
+
+        <div class="image clearfix">
+
+            <a href="img/01.jpg" data-lightbox="gallery" data-filter-item data-title="Hay Bales
+        I love hay bales. Took this snap on a drive through the countryside past some straw fields." class="imgageThumb">
+                <img src="img/thumbnails/01.jpg">
+            </a>
+
+            <a href="img/02.jpg" data-lightbox="gallery" data-filter-item   data-title="Lake
+The lake was so calm today. We had a great view of the snow on the mountains from here." class="imgageThumb">
+                <img src="img/thumbnails/02.jpg">
+            </a>
+
+            <a href="img/03.jpg" data-lightbox="gallery" data-filter-item data-title="Canyon
+I hiked to the top of the mountain and got this picture of the canyon and trees below." class="imgageThumb">
+                <img src="img/thumbnails/03.jpg"></a>
+
+            <a href="img/04.jpg" data-lightbox="gallery" data-filter-item data-title="Iceberg
+It was amazing to see an iceberg up close, it was so cold but didn’t snow today. " class="imgageThumb">
+                <img src="img/thumbnails/04.jpg"></a>
+
+            <a href="img/05.jpg" data-lightbox="gallery" data-filter-item data-title="Desert
+The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." class="imgageThumb">
+                <img src="img/thumbnails/05.jpg"></a>
+
+            <a href="img/06.jpg" data-lightbox="gallery" data-filter-item data-title="Fall
+Fall is coming, I love when the leaves on the trees start to change color." class="imgageThumb">
+                <img src="img/thumbnails/06.jpg"></a>
+
+            <a href="img/07.jpg" data-lightbox="gallery" data-filter-item data-title="Plantation
+I drove past this plantation yesterday, everything is so green!" class="imgageThumb">
+                <img src="img/thumbnails/07.jpg"></a>
+
+            <a href="img/08.jpg" data-lightbox="gallery" data-filter-item data-title="Dunes
+My summer vacation to the Oregon Coast. I love the sandy dunes!" class="imgageThumb">
+                <img src="img/thumbnails/08.jpg"></a>
+
+            <a href="img/09.jpg" data-lightbox="gallery" data-filter-item data-title="Countryside Lane
+We enjoyed a quiet stroll down this countryside lane." class="imgageThumb">
+                <img src="img/thumbnails/09.jpg"></a>
+
+            <a href="img/10.jpg" data-lightbox="gallery" data-filter-item data-title="Sunset
+Sunset at the coast! The sky turned a lovely shade of orange." class="imgageThumb">
+                <img src="img/thumbnails/10.jpg"></a>
+
+            <a href="img/11.jpg" data-lightbox="gallery" data-filter-item data-title="Cave
+I did a tour of a cave today and the view of the landscape below was breathtaking." class="imgageThumb">
+                <img src="img/thumbnails/11.jpg"></a>
+
+            <a href="img/12.jpg" data-lightbox="gallery" data-filter-item data-title="Bluebells
+I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." class="imgageThumb">
+                <img src="img/thumbnails/12.jpg"></a>
+
+        </div><!-- END IMAGE -->
+
+
+
+    </div><!-- END WRAPPER -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/LightBox/lightbox-plus-jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
