@@ -1,0 +1,71 @@
+*{box-sizing: border-box;}
+
+.wrapper {
+    max-width: 320px;
+    margin: auto;
+}
+
+.wrapper input{
+    margin: 20px auto; 
+    width: 300px;
+    display: block;
+    padding: 13px;
+    
+}
+.image {
+    width: 500px;
+    margin: auto;
+}
+
+.imgageThumb{
+     float: left;
+     margin: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+    .wrapper {
+        max-width: 1000px;
+    }
+    .wrapper input{
+        width: 420px;
+    }
+    .image {
+        width: 1000px;
+    }
+    .imgageThumb{
+        margin: 10px 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CLEARFIX */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
